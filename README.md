@@ -1,3 +1,13 @@
+## About this fork
+
+This is a development fork of [wasserth/TotalSegmentator](https://github.com/wasserth/TotalSegmentator), the nnU-Net-based toolkit for segmenting anatomical structures in CT and MR images. It offers modality-specific tasks and structure subsets, useful for research workflows that need anatomical masks as inputs to image measurements or further analysis.
+
+The fork's [upstream PR #627](https://github.com/wasserth/TotalSegmentator/pull/627) proposes passing NORA mask-tagging arguments without shell interpretation. It was open on 17 October 2026 and remains on the linked feature branch.
+
+Follow the [official installation and usage guide](https://github.com/wasserth/TotalSegmentator#installation) for dependencies, tasks, and model requirements. [Compare the default branch with upstream](https://github.com/jdotc1/TotalSegmentator/compare/wasserth:master...jdotc1:master). The original research-use limitation, task-specific license conditions, citation requirements, and detailed documentation remain below.
+
+---
+
 # TotalSegmentator
 
 Tool for segmentation of most major anatomical structures in any CT or MR image. It was trained on a wide range of different CT and MR images (different scanners, institutions, protocols,...) and therefore works well on most images. A large part of the training dataset can be downloaded here: [CT dataset](https://doi.org/10.5281/zenodo.6802613) (1228 subjects) and [MR dataset](https://zenodo.org/doi/10.5281/zenodo.11367004) (616 subjects). You can also try the tool online at [totalsegmentator.com](https://totalsegmentator.com/) or as [3D Slicer extension](https://github.com/lassoan/SlicerTotalSegmentator).
